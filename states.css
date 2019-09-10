@@ -1,0 +1,47 @@
+header img{
+	width:50%;
+}
+header{
+	width: 80%;
+}
+.class{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+body{
+	background-color: gray
+}
+nav {
+	background-color: #191d70;
+	padding: 20px;
+	text-align: left;
+	color: white;
+}
+
+nav li {
+	display: inline;
+}
+
+nav ul{
+	margin: 0;
+	padding: 30px;
+	text-align: center;
+	
+}
+nav a{
+	color: white;
+	padding:20px;
+	margin-right: 10 px;
+	font-family: Verdana;
+	font-size: 20 px;
+}
+section {
+	text-align: center;
+	width: 50%;
+}
+
+nav li{
+	display: inline;
+}
