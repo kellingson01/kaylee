@@ -1,0 +1,75 @@
+body {
+	font-family: C;
+	background-color: #cccbc8;
+	margin: 0;
+	padding: 0;
+}
+
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header img {
+	width:40%;
+}
+
+header {
+
+	padding: 10px;
+	text-align: center;	
+`   background-color: #b8b6b2; 
+}
+
+nav {
+	background-color: brown;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Cursive;
+}
+
+nav li {
+	display: inline;
+	/*padding: 20px;*/
+}
+
+nav ul {
+	margin:0;
+	padding:0;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+nav a:hover {
+	color: navy;
+	background-color: orange;
+}
+
+section {
+	padding: 10px;
+	background-color: rgb(100%,100%,100%);
+	overflow: auto;
+	font-family: Cursive;
+
+}
+
+.bgpic {
+	width: 50%;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
