@@ -1,0 +1,66 @@
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: red;
+  text-align: center;
+}
+
+.topnav li {
+	display: inline;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: maroon;
+  color: white;
+}
+
+section {
+	background-color: lavender;
+	overflow: auto;
+}
+
+
+#main {
+	width: 68%;
+	float: right;
+	background-color: lightblue;
+	padding: 1%
+}
+
+#side {
+	width: 30%;
+	float: left;
+	background-color: lavender;
+}
+
+
+
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+	display: block;
+    float: none;
+    width: 100%;
+  }
+  
+  #main {
+	  float: none;
+	  width: 100%;
+  }
+  
+  #side {
+	  float: none;
+	  width: 100%;
+  }
+}

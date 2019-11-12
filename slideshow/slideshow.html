@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+<link href="slideshow.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h2>Responsive navigation menu</h2>
+<p>Resize the browser window to see the effect: When the screen is less than 600px, the navigation menu will be displayed vertically instead of horizontally.</p>
+
+<nav>
+<div class="topnav">
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Friends</a></li>
+  <li><a href="#">Family</a></li>
+  <li><a href="#">Contact</a></li>
+ </ul>
+</div>
+</nav>
+
+<section>
+
+<div id="main">
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/tatum.jpg" data-thumb="images/tatum.jpg" alt="" />
+                <img src="images/allen.jpg" data-thumb="images/allen.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/zion.jpg" data-thumb="images/zion.jpg" alt="" title="#htmlcaption" />
+				<img src="images/duke.jpg" data-thumb="images/duke.jpg" alt="" title="Duke Blue Devil Basketball" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+		
+		
+	<p>This is the main content.</p>
+	
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu ligula id augue elementum condimentum sit amet non est. Mauris et nibh et leo aliquet consectetur. Nullam non ex gravida, lacinia ipsum ac, viverra eros. Maecenas rhoncus facilisis ullamcorper. Sed quis purus eget quam consequat pellentesque eget non ligula. Integer faucibus purus vel erat pellentesque, at varius leo elementum. Donec fringilla venenatis nibh nec ultricies. In quis ipsum vel ligula aliquet varius nec et turpis. Suspendisse potenti. Nullam convallis metus ac neque finibus, sed efficitur ipsum mollis. Phasellus nec purus suscipit, scelerisque mi vitae, fringilla dolor. Suspendisse bibendum felis ut tellus dignissim, id egestas mi sagittis. Morbi turpis urna, euismod non commodo at, maximus non quam. Fusce bibendum velit eu nulla auctor, ut lobortis sem tincidunt. Aenean egestas, lectus finibus interdum pretium, urna dolor feugiat est, sed placerat risus magna ac elit. Donec augue est, venenatis et elementum ornare, aliquam ut sapien.
+
+<p>Suspendisse interdum est nec vulputate maximus. Ut porttitor blandit lacus id accumsan. Aliquam laoreet, nisl vel dignissim porta, dui mauris pulvinar libero, id consectetur eros est vitae odio. Vestibulum viverra ex mi, in tempus neque accumsan at. Integer eleifend ex pharetra blandit varius. Curabitur tempor metus id leo accumsan elementum eu id neque. Ut ullamcorper libero ante, at tincidunt tellus faucibus id. Duis ornare massa a rutrum feugiat. Nullam commodo ultricies lorem, quis rhoncus sapien tincidunt non. Sed ut ornare justo. Duis porttitor vehicula justo ac iaculis. Pellentesque facilisis odio accumsan vehicula ultricies.</p>
+
+<p>Cras at enim quam. Nam nec sem at sem facilisis rutrum ac ut nisi. Donec ut pharetra eros. Phasellus vestibulum placerat nulla, eget auctor dolor rhoncus nec. Curabitur at mauris leo. Duis luctus nisl odio, vel imperdiet lacus condimentum rhoncus. In hac habitasse platea dictumst. Etiam id augue viverra, tincidunt metus ut, dignissim quam. Nulla quam mauris, laoreet non dui vel, vestibulum lobortis velit. Sed sagittis in ligula eget euismod. Proin dapibus nunc at mi maximus, non auctor augue elementum. Integer convallis lectus nec felis ullamcorper, eu lobortis mauris auctor. Vestibulum in porttitor nunc.</p>
+</div>
+
+<div id="side">
+	<p>This is the side content.</p>
+	<p>This is the side content.</p>
+	<p>This is the side content.</p>
+	<p>This is the side content.</p>
+</div>
+
+</section>
+
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+</html>
